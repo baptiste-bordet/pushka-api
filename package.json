@@ -1,0 +1,42 @@
+{
+  "name": "pushka-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Pushka Strapi app",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "apollo-boost": "^0.4.7",
+    "graphql": "^15.0.0",
+    "knex": "<0.20.0",
+    "react-apollo": "^3.1.5",
+    "sqlite3": "latest",
+    "strapi": "3.0.0-beta.19.5",
+    "strapi-admin": "3.0.0-beta.19.5",
+    "strapi-connector-bookshelf": "3.0.0-beta.19.5",
+    "strapi-plugin-content-manager": "3.0.0-beta.19.5",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.19.5",
+    "strapi-plugin-email": "3.0.0-beta.19.5",
+    "strapi-plugin-graphql": "3.0.0-beta.19.5",
+    "strapi-plugin-upload": "3.0.0-beta.19.5",
+    "strapi-plugin-users-permissions": "3.0.0-beta.19.5",
+    "strapi-utils": "3.0.0-beta.19.5"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "5f962c42-0e3b-45bf-b255-d3a05bbdc8c4"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

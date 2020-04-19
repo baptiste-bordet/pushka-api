@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "bios",
+  "info": {
+    "name": "Bio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

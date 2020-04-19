@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "banners",
+  "info": {
+    "name": "Banner"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
