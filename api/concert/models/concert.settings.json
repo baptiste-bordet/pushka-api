@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "concerts",
+  "info": {
+    "name": "concert"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "nom": {
+      "type": "string"
+    },
+    "lieu": {
+      "type": "string"
+    },
+    "lien": {
+      "type": "string"
+    }
+  }
+}
